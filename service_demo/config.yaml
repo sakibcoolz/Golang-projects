@@ -1,0 +1,7 @@
+database:
+  host: 10.0.2.100
+  port: 3306
+  databasetype: mysql
+  connectiontype: tcp
+  schema: test
+  charset: charset=utf8mb4&parseTime=True&loc=Local
