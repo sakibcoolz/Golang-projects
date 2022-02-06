@@ -27,6 +27,6 @@ func GiveController1(DB *gorm.DB) (c1 Controller1) {
 }
 
 func (co Controller1) Ping(c *gin.Context) {
-	co.service1.Ping()
+	co.service2.Ping()
 	c.String(http.StatusAccepted, "sakib mulla")
 }
